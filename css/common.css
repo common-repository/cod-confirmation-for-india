@@ -1,0 +1,185 @@
+*{box-sizing: border-box;-webkit-box-sizing: border-box;}
+img{max-width: 100%;}
+.text-green{margin-top: 10px;color: green !important;}
+.text-yellow {margin-top: 10px;color: #c56709 !important;}
+.text-warning {margin-top: 10px;color: #8a0202 !important;}
+.m_t_15{margin-top: 15px;}
+.white-back{background-color: #ffffff;}
+.p-15{padding: 15px;}
+.width-50{width:50%;float: left;}
+.text-center{text-align: center;}
+.f-100{float: left;width: 100%;}
+
+/* Setting page */
+table.dataTable.no-footer{box-shadow: -1px 1px 8px 0 #d8d8d8;border-bottom: none;}
+.wrap .main-heading img{vertical-align: middle;max-height: 30px;}
+.wrap div.balance_div{display: table;width: 100%;position: relative;overflow: hidden;padding:20px 20px 16px;background: #fff;margin-top: 20px;box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);}
+.balance_div .back-img{position: absolute;right: 0;top:0;}
+.balance_div .icon_div{width: 12%;display: table-cell;vertical-align: middle;position: relative;z-index: 1;}
+.balance_div .bal_detail{width: 87%;display: table-cell;vertical-align: middle;position: relative;z-index: 1;}
+.balance_div .bal_detail p{margin: 10px 30px 10px 0;float: left;padding: 2px;}
+.balance_div .bal_detail select{width:200px;height: 29px;}
+.balance_div .bal_detail .bal{font-size: 18px;}
+.balance_div .icon_div img{max-height: 70px;}
+.main-form{margin:0 -15px;position: relative;}
+.main-form .padding_div{width: 100%;float: left;padding: 0 15px;}
+.d-heading{padding: 8px 15px 10px;background: #23282d;color: #fff;position: relative;}
+.d-heading i{margin-right: 8px;}
+.main-form .heading{margin:0;padding: 8px 15px 10px;background: #23282d;color: #fff;position: relative;}
+.main-form .sub-heading{margin:0;padding: 15px 10px;background: #fff;border-bottom: 1px solid #ececec;}
+.main-form .heading i{margin-right: 8px;}
+.main-form .heading .tooltip{margin-left: 5px;}
+.main-form .save_btn{position: absolute;right: 5px;top: 4px;}
+.main-form .button.last-btn{margin-top: 15px;}
+
+.badge{display: -webkit-inline-box;display: -ms-inline-flexbox;display: inline-flex;-webkit-box-align: center;-ms-flex-align: center;
+    align-items: center;padding: 0 12px;background-color: #dfe3e8;border: 2px solid #ffffff;border-radius: 2rem;color: #454f5b;}
+.badge-pending{background-color: #ffea8a;color: #595130;}
+.badge-cancel{background-color: #ffc58b; color: #594430;}
+.badge-approve{background-color: #bbe5b3;color: #414f3e;}
+.badge-default{background-color: #b4e1fa; color: #3e4e57;}
+
+table#orders{width:100% !important;}
+table.dataTable tbody th, table.dataTable tbody td{padding: 8px 10px 8px 20px;}
+.badge{width: 100%;justify-content: center;max-width: 80%;}
+.order-strip{background: #fff;padding:10px 15px;box-shadow: -1px 1px 8px 0 #d8d8d8;margin-bottom: 14px;}
+.order-list .button.button-large{float: right;margin:10px 15px 0 0px;}
+.order-strip input, .order-strip select{width:20%;}
+
+/* style label */
+.timer_radio .radio_div{float: left;width: 50%;padding: 0 5px;}
+.timer_radio label {width: 100%;border-radius: 3px;border: 1px solid #D1D3D4;color:#74777b;}
+.timer_radio input.radio:empty {margin-left: -999px;}
+.timer_radio{display: inline-block;margin: 0 -5px;vertical-align: top;width: 350px;}
+.timer_radio input.radio:empty ~ label {position: relative;float: left;line-height: 2.5em;text-indent: 3.25em;cursor: pointer;
+    -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.timer_radio input.radio:empty ~ label:before {position: absolute;display: block;top: 0;bottom: 0;left: 0;content: '';
+    width: 2.5em;background: #D1D3D4;content:'\f00d';text-indent: .8em;color:#fff;font-family: FontAwesome;}
+.timer_radio input.radio:checked ~ label{border: 1px solid #0085ba;}
+.timer_radio input.radio:checked ~ label:before {content:'\f00c';background-color: #0085ba;}
+
+.spmainDiv .form-table{margin-top:0;box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);}
+.spmainDiv .form-table .width-50{width: 50%;}
+.spmainDiv .form-table tr{width:50%;float: left;}
+.spmainDiv .form-table tr:nth-child(even){border-left: 1px solid #ececec;padding-left: 10px;margin-left: -1px;}
+.spmainDiv .form-table td p.description {margin-top: 15px;}
+.spmainDiv .form-table th{padding: 20px 15px;}
+.tooltip {position: relative;display: inline-block;cursor: help;}
+.tooltip .tooltiptext {visibility: hidden;width: 160px;font-size: 12px;background-color: #555;color: #fff;text-align: center;border-radius: 6px;
+    padding: 5px 8px;position: absolute;z-index: 1;bottom: 125%;left: 50%;margin-left: -80px;opacity: 0;transition: opacity 0.3s; }
+.tooltip .tooltiptext::after {content: "";position: absolute;top: 100%;left: 50%;margin-left: -5px;border-width: 5px;border-style: solid;
+    border-color: #555 transparent transparent transparent; }
+.tooltip:hover .tooltiptext {visibility: visible;opacity: 1;}
+
+/* Help section */
+.desc .vtop img{max-height: 450px;}
+.main_div{background: white;padding: 30px;float: left;}
+.sub_head{padding: 0 0 20px 0;border-bottom: 1px solid #f2f3f3;font-size: 21px;margin: 1em 0;font-weight: 500;}    
+.w_38{width: 38%;float: left;}
+.w_62{width: 62%;float: left;}
+.w_54{width: 54%;float: left;}
+.w_46{width: 46%;float: left;}
+h5{font-size: 1.2em;}
+.main_div p{font-size: 15px;margin: 6px 10px;text-align: justify;}
+.main_div ul li,.main_div ol li{list-style: circle;font-size: 15px;}
+.main_div ul,.main_div ol{padding-left: 50px;}
+.tcenter{text-align: center;}
+.vtop{vertical-align: top;}
+.flag-right{font-size: 20px;top: 2px;position: relative;padding-right: 5px;color: #676565;}
+/* The Modal (background) */
+.spmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.67); /* Black w/ opacity */
+}
+
+/* spModal Content/Box */
+.spmodal-content {
+    background-color: #fefefe !important;
+    margin: 15% auto !important; /* 15% from the top and centered */
+    border: 1px solid #888 !important;
+    width: 30% !important;/* Could be more or less, depending on screen size */
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.spmodal-header {
+    padding: 2px 16px;
+    color: #0c0c0c;
+    border-bottom: 1px solid #ececec;
+}
+
+/* spModal Body */
+.spmodal-body {padding: 10px 16px;}
+
+/* spModal Footer */
+.spmodal-footer {
+    padding: 15px;
+    color: white;
+}
+
+.disabled{opacity: 0.7;pointer-events: none; cursor: not-allowed;}
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#rechare_table{width: 100%;}
+#rechare_table tr th{width: 30%;text-align: left;}
+#rechare_table input,#rechare_table select{width: 200px;}
+.m_l_26{margin-left: 26px;}
+.error{color: #a91e1e;}
+    
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .regular-text{width: 17em;}
+    .form-table th{padding: 15px 10px;}
+    .timer_radio{width: 260px;}
+    .timer_radio input.radio:empty ~ label{font-size: 12px;text-indent: 2.45em;}
+    .timer_radio input.radio:empty ~ label:before{width: 2em;text-indent: 0.59em;}
+    .badge{padding: 4px;text-align: center;}
+    .regular-text.sender-input{width: 12em;}
+    .balance_div .back-img:before{content: '';background: linear-gradient(to right, white 37%, black 67%);height: 100%;
+    width: 100%;top: 0;left: 0;position: absolute;opacity: 0.6;}
+}
+@media only screen and (max-width: 1199px) {
+    .form-table tr{width:100%;}
+    .form-table tr:nth-child(even){padding-left: 0;}
+    .form-table th{padding: 10px 15px;}
+    .wrap div.balance_div{padding: 10px;}
+    .balance_div .bal_detail select{width: 150px;}
+    .balance_div .back-img{display: none;}  
+    .badge{padding: 4px;text-align: center;line-height: 1.3em;}
+    .main_div{padding: 20px;}
+    .sub_head{font-size: 18px;padding-bottom: 10px;margin:.5em 0;}
+    .main_div p{font-size: 13px;}
+    .main_div ul li, .main_div ol li{font-size: 13px;}
+    .w_38{width: 100%;}
+    .w_62{width: 100%;}
+    .w_54{width: 100%;}
+    .w_46{width: 100%;}
+    .help-section img{max-height: 500px;}
+    .help-section h5{margin: 1.1em 0;}
+}
